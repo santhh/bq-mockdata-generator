@@ -1,0 +1,1 @@
+#### gradle run -Pargs=" --streaming --project=bq-sql-ad-test --batchSize=1000 --numberofRows=10000 --tableSpec=bq-sql-load-test:telco_analytics.clickstream_raw --inputFile=gs://bq-schema-files/clickstream_schema.json"
